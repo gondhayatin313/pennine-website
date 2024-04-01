@@ -45,6 +45,9 @@
 #header .sub-menu-sidebox {
     padding: 0;
 }
+#header .mobile-con-btn, .mobile-theme-color-change-btn{
+    display: none;
+}
 /* end header css start here */
 
 
@@ -467,7 +470,7 @@
         line-height: 42px;
         color: #fff;
     }
-    .container {
+    .client-slider-section {
         overflow: hidden;
         .slider {
         animation: slidein 30s linear infinite;

@@ -1,0 +1,100 @@
+.consulting-list .consulting-item{
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+.consulting-list .consulting-img {
+    max-width: 60px;
+    height: 58px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.about-count {
+    margin-top: -150px;
+    width: 840px;
+    max-width: 80%;
+    padding: 66px 66px 0;
+    margin-bottom: 30px;
+    background-color: #0a0c10;
+    color:#fff;
+    margin-left: auto;
+}
+.about-count .ac-item {
+    margin-bottom: 66px;
+}
+
+.about-count .ac-heading{
+    font-weight: 700;
+    font-size: 36px;   
+    display: block;
+}
+ .ourvalue-block {
+    margin-left: auto;
+ }
+ .our-value-item {
+    position: relative;
+    overflow: hidden !important;
+    text-align: center;
+    padding: 20px 20px 4px;
+    border-radius: 20px;
+    border: 1px solid #3c3c3c;
+    margin-bottom: 30px;
+}
+
+.our-value-item:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    border-radius: 20px;    
+    backdrop-filter: blur(40px);    
+    background-color: hsla(0, 0%, 100%, .05);
+    z-index: 1;
+    height: 100% !important;
+    width: 100%;
+
+}
+.our-value-item:after {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    content: "";
+    height: 110px;
+    width: 110px;
+    top: 70px;
+    opacity: .5;
+    background: transparent linear-gradient(132deg, #f67f2d, #fe4b8d) 0 0 no-repeat padding-box;
+}
+.our-value-item .our-value-content {
+    z-index: 2;
+    position: relative;
+}
+.our-value-item .our-value-icon {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    height: 110px;
+    width: 110px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+ .our-value-item .our-value-heading {
+    margin-bottom: 12px !important;
+}
+.what-we-item {
+    margin-top: 60px;
+}
+.team-list .team-item{
+    margin-bottom: 30px;
+}
