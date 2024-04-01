@@ -90,11 +90,34 @@
     position: relative;
 }
  .our-value-item .our-value-heading {
-    margin-bottom: 12px !important;
+    margin-bottom: 12px;
 }
 .what-we-item {
     margin-top: 60px;
 }
 .team-list .team-item{
     margin-bottom: 30px;
+}
+.team-list .team-photo{
+    position: relative;
+    overflow: hidden;
+}
+.team-list .team-contant {
+    margin-top: 20px;
+    position: relative;
+}
+.team-list .team-contant .team-linkedin {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0 !important
+
+}
+.team-list .team-name {
+    margin-bottom: 6px !important;
+}
+.team-list .team-position {
+    opacity: .7;
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
 }
