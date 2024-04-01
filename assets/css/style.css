@@ -78,9 +78,15 @@ h1 {
 .section-py {
   padding: 70px 0px;
 }
+.section-py-sm {
+  padding: 40px 0px;
+}
 
 .mb-20{
   margin-bottom: 20px;
+}
+.mb-18{
+  margin-bottom: 18px;
 }
 .col-mb-30{
   margin-bottom: 30px !important;
@@ -92,9 +98,19 @@ h1 {
 .font-10 {
   font-size: 10px !important;
 }
+.font-600{
+  font-weight: 600;
+}
  .font-12 {
   font-size: 12px !important;
 }
 .social-links a{
   color: #32478a;
+}
+img{
+  max-width: 100%;
+}
+.section-dark{
+  background-color: #0a0c10;
+  color: #fff;
 }

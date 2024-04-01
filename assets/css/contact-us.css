@@ -46,6 +46,7 @@
     font-weight: 400;
     margin-bottom: 20px;
     width: 100%;
+    border-radius: 0;
 }
 .form-section .radio-list .form-check {
     margin-bottom: 24px;
@@ -211,4 +212,12 @@ textarea.form-control {
 
 .contact-steps .cs-item p{
     font-size: 14px !important;
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+.btn-check:checked+.btn{
+    background-color: #32478a;
+    color: #fff;
+    border-radius: 0;
 }
