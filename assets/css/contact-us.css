@@ -1,0 +1,214 @@
+.form-section .form-card {
+ background-color: #f7f9fb;
+}
+
+.form-section .form-card:not(:last-child){
+    margin-bottom: 30px;
+}
+.form-section .form-card .card-body {
+    padding: 30px;
+}
+
+.form-section .form-card .form-heading {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.form-section .form-group:not([class*=" mb-"]){
+    margin-bottom: 30px !important;
+}
+
+.form-section .form-group label{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.form-section .form-group label.req span{
+    color: #32478a;
+}
+
+.form-section  .form-control {
+    display: block;
+    width: 100%;
+    padding: 1.2rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375;    
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0 solid #eceded;   
+    border-radius: 0;
+}
+.form-section .btn-checkbox .btn{
+    background-color: #fff;
+    padding: 1.2rem 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-section .radio-list .form-check {
+    margin-bottom: 24px;
+    min-height: 1.75rem;
+    padding-left: 2em;
+}
+.form-check-input:checked {
+    background-color: #32478a;
+    border-color: #e6e6e6;
+}
+.form-check-input {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: .125em;    
+    background-color: #fff;   
+    border: 1px solid rgba(0, 0, 0, .25);  
+    margin-left: -2em !important;
+}
+.radio-list .form-check-label span { 
+    color: #0a0c1066;
+    font-size: 14px;
+    margin-left: .25rem;
+}
+textarea.form-control {
+    min-height: 134px;
+    resize: none;
+    padding: 1rem;
+}
+.form-section .flexbox-c{
+    display: flex !important;
+    align-items: center !important;
+}
+.card-upload .fileupload {
+    background-color: #fff;
+    padding: 20px;
+    transition: unset;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.card-upload {
+    margin: 30px 0 0;
+}
+.card-upload .fileupload .upload-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
+  }
+  .card-upload .fileupload .icon-upload {
+    left: 20px;
+    top: 20px;
+    position: absolute !important;
+}  
+.form-section .btn-submit:hover {
+    border: 2px solid #32478a;
+}
+.form-section .btn-submit {
+    outline: none;
+    height: 48px;
+    border-radius: 0;
+    text-align: center;
+    min-width: 160px;
+    transition: all .25s ease;
+    border: 2px solid #32478a;
+    color: #32478a;
+}
+.form-section .btn-submit:hover{
+    background-color: #32478a;
+    color: #fff;
+}
+.form-section .form-footer {
+    width: 160px;
+    margin-left: auto;
+}
+.helpdesk-card {
+    padding: .75rem 1.5rem;
+    margin-top: 30px;
+    min-height: 120px;
+    transition: all .3s ease;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    border: 1px solid #eceded;
+}
+.helpdesk-card:hover {
+    border-color: #32478a !important;
+}
+.helpdesk-card .helpdesk-icon {
+    width: 44px;
+    height: 44px;
+    display: flex !important;
+    align-items: center !important;
+    color: #32478a;
+}
+.helpdesk-card .helpdesk-content {
+    margin-left: 20px !important;
+}
+.helpdesk-card .helpdesk-content a {
+    color: #0a0c10;
+}
+.helpdesk-card .helpdesk-content .helpdesk-heading {
+    margin-bottom: .5rem !important;
+}
+.helpdesk-card.helpdesk-inquiry,.helpdesk-card.helpdesk-inquiry a{
+    background-color: #0a0c10;
+    color: #fff;
+}
+
+.form-section .contact-steps{
+    display: flex;
+    height: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between !important;
+    padding-left: 0;
+    list-style: none;
+    padding-bottom: 78px;
+    counter-reset: contact-counter;
+
+}
+
+.contact-steps:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    left: 22px;
+    background-color: #32478a;
+    position: absolute;
+    top: 0;
+    list-style: none;
+}
+.contact-steps .cs-item:before {
+    counter-increment: contact-counter;
+    content: "0" counter(contact-counter);
+    width: 44px;
+    height: 44px;
+    left: 0;
+    z-index: 1;
+    display: flex !important;
+    justify-content: center !important;
+    -ms-flex-pack: justify !important;
+    -webkit-justify-content: center;
+    align-items: center !important;
+    background-color: #32478a;
+    color: #fff;
+    position: absolute;
+    top: 0;
+}
+.form-section .contact-steps .cs-item {
+    padding-left: 70px;
+    position: relative !important;
+}
+.contact-steps .cs-item * {
+    line-height: 24px;
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+}
+.contact-steps .cs-item h6 {
+   font-weight: 600 !important;
+}
+
+.contact-steps .cs-item p{
+    font-size: 14px !important;
+}

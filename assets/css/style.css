@@ -1,0 +1,100 @@
+
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  
+}
+a{
+  text-decoration: none;
+  
+}
+.View-this-project a {
+  font-size: 1.125rem;
+  line-height: 28px;
+  color: #fff;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+#service a {
+  color: #32478a !important;
+  font-size: 1.125rem;
+  line-height: 28px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 72px;
+  margin-bottom: 30px !important;
+  }
+
+  h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 48px;   
+  }
+  
+  h3{
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  h4{
+    font-weight: 700;
+    font-size: 1.375rem;    
+  }
+ h5 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 30px;
+ }
+ h6 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 30px;
+  margin-bottom: 18px
+ }
+.heading-dark{
+    color: #000;
+  }
+.text-primary {
+  color: #32478a !important;
+}
+.nav-link:hover{
+  color: #32478a !important;
+}
+.hero-section {
+  padding-top: calc(50px + 96px);
+  padding-bottom: 70px;
+}
+.section-py {
+  padding: 70px 0px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+.col-mb-30{
+  margin-bottom: 30px !important;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+.font-10 {
+  font-size: 10px !important;
+}
+ .font-12 {
+  font-size: 12px !important;
+}
+.social-links a{
+  color: #32478a;
+}
