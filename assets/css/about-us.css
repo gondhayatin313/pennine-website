@@ -121,3 +121,151 @@
     font-size: 14px !important;
     margin-bottom: 0 !important;
 }
+.team-hire {
+    position: relative;
+    padding: 66px 20px;
+    height: calc(100% - 74px);
+    min-height: 270px;
+    background: transparent linear-gradient(190deg, #32478a, #d3caf791) 0 0 no-repeat padding-box;
+    color: #fff;
+    text-align: center;
+}
+.team-hire .img-jointeam{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.teamphoto-sm .team-avatar{
+    position: relative;
+    overflow: hidden;
+}
+.teamphoto-sm .left-teamphotos{
+    width: 100%;
+}
+
+.teamphoto-sm .middle-teamphoto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.teamphoto-sm .team-avatar {
+    margin-bottom: 8px;
+}
+.teamphoto-sm {
+    padding-top: 70px;
+}
+
+.teamphoto-sm .middle-teamphoto .out-people-card {
+    height: 100%;
+    margin-bottom: 8px;
+}
+.our-people {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    background-color: #32478a;
+    color: #fff;
+    height: 100%;
+}
+.our-people .h2, .our-people h2 {
+    font-size: 3.75rem;
+    line-height: 4.875rem;
+    max-width: 440px;
+    text-align: center;    
+    margin-bottom: 0;
+    width: 100%;
+}
+.teamphoto-sm .row{
+    padding: 0px 8px;
+}
+
+.teamphoto-content{
+    padding: 0px 4px;
+}
+
+#section-timeline .timeline-bg {    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.section-timeline-content{
+    position: relative;
+}
+
+#timeline-slider{
+    margin-top: 80px;
+    padding-bottom: 70px;
+}
+
+#timeline-slider .item {
+    cursor: move;
+}
+#timeline-slider .item .timeline-item-inner {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#timeline-slider .item .timeline-item-inner .timeline-year {
+    font-weight: 700 !important;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#timeline-slider .item .timeline-item-inner .timeline-icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.14);
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent linear-gradient(132deg, #32478a, #405175) 0 0 no-repeat padding-box;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#timeline-slider .item .timeline-item-inner .timeline-desc-card {
+    padding: 20px;
+    background-color: #fff;
+}
+#timeline-slider .item .timeline-item-inner .timeline-desc-card h6{
+    margin: 0;
+}
+#timeline-slider .item .timeline-item-inner .timeline-desc-card p{
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+
+#timeline-slider .owl-stage-outer{
+    padding: 0px 107px !important;
+}
+.slider-hr-line:before {
+    content: "";
+    top: 110px;
+    width: 100%;
+    border-top: 2px dashed #32478a;
+    opacity: .1;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 290px;
+}
+.section-gradient-center {
+    background-color: #fff;
+    background-image: linear-gradient(1deg, #fff 0, #eff2fc 52%, #fff 100%);
+}
+.about-map {
+    color: #fff !important;
+}
+
+.our-culture-section h3 {
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 42px;
+}
