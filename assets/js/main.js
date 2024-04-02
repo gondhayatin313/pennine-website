@@ -47,6 +47,7 @@ $('#benefits-slider').owlCarousel({
 $('#portfolio-section').owlCarousel({
     loop: true,
     margin: 10,
+    dots:false,
     responsiveClass: true,
     responsive: {
         0: {
@@ -68,3 +69,40 @@ $('#portfolio-section').owlCarousel({
 })
 
 
+
+
+$('#timeline-slider').owlCarousel({
+    center: false,
+    items:2,
+    loop:false,   
+    margin:10,
+    dots:false,
+    responsive:{
+        0: {
+            items: 1           
+        },
+        600:{
+            items:2
+        },        
+        1000: {
+            items: 3            
+        }
+    }
+});
+
+
+var owl = $('#our-culture-slider');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:false
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})

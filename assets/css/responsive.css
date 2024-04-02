@@ -258,7 +258,9 @@
     .hide-sm {
         display: none;
     }
-    
+    .slider-hr-line:before{
+        top: 310px !important;
+    }
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -603,30 +605,7 @@
 
 }
 
-
-@media (max-width: 1439.98px) {
-    /* #header .dropdown-col-first {
-        padding: 24px 30px 0;
-    } */
-    /* #header  .dm-item-icon {
-        width: 48px;
-        height: 48px;
-        padding: 6px;
-    } */
-}
-
-/* 
-@media only screen and (min-width:922px) and (max-width:2660px) {
-
-    #header .mobile-con-btn,
-    .mobile-theme-color-change-btn {
-        display: none;
-    }
-
-} */
-
-
-/* min width resonsive css start here  */
+/* min width resonsive css start here*/
 @media (min-width: 992px){
 .ourvalue-block {
     max-width: 570px;
@@ -637,4 +616,49 @@
 .our-value-item.ovi-col-end {
     margin-top: 115px;
 }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1439.98px){
+    .teamphoto-sm .left-teamphotos {
+        max-width: 312px;
+    }
+    .teamphoto-sm .middle-teamphoto {
+        max-width: 636px;
+    }
+    .teamphoto-sm .right-teamphoto {
+        max-width: 152px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    .teamphoto-sm .left-teamphotos {
+        max-width: 258px;
+    }
+    .teamphoto-sm .middle-teamphoto {
+        max-width: 524px;
+    }
+    .teamphoto-sm .right-teamphoto {
+        max-width: 125px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .teamphoto-sm .left-teamphotos {
+        max-width: 194px;
+        
+    }
+    .teamphoto-sm .middle-teamphoto {
+        max-width: 380px;
+    }
+    .teamphoto-sm .right-teamphoto {
+        max-width: 92.75px;
+    }
+    .our-people h2 {
+        font-size: 1.75rem !important;
+        line-height: 2.875rem !important;
+    }
 }
