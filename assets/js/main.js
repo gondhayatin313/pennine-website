@@ -72,8 +72,7 @@ $('#portfolio-section').owlCarousel({
 
 
 $('#timeline-slider').owlCarousel({
-    center: false,
-    items:2,
+    center: false,   
     loop:false,   
     margin:10,
     dots:false,
@@ -85,7 +84,7 @@ $('#timeline-slider').owlCarousel({
             items:2
         },        
         1000: {
-            items: 3            
+            items: 3          
         }
     }
 });
@@ -93,12 +92,23 @@ $('#timeline-slider').owlCarousel({
 
 var owl = $('#our-culture-slider');
 owl.owlCarousel({
-    items:4,
     loop:true,
     margin:10,
+    dots:false,
     autoplay:true,
     autoplayTimeout:2000,
-    autoplayHoverPause:false
+    autoplayHoverPause:false,
+    responsive:{
+        0: {
+            items: 1           
+        },
+        600:{
+            items:2
+        },        
+        1000: {
+            items: 3.5            
+        }
+    }
 });
 $('.play').on('click',function(){
     owl.trigger('play.owl.autoplay',[1000])

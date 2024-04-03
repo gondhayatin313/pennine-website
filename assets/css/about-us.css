@@ -241,8 +241,8 @@
 }
 
 
-#timeline-slider .owl-stage-outer{
-    padding: 0px 107px !important;
+#timeline-slider .owl-stage-outer {
+    padding-left:107px;
 }
 .slider-hr-line:before {
     content: "";
@@ -269,3 +269,19 @@
     font-size: 28px;
     line-height: 42px;
 }
+
+#our-culture-slider {
+    margin-top: 40px;
+    cursor: move;
+  
+}
+#our-culture-slider .owl-item{
+    padding: 0px 10px !important;
+}
+
+#our-culture-slider .owl-stage {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+

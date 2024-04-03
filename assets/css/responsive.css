@@ -261,12 +261,42 @@
     .slider-hr-line:before{
         top: 310px !important;
     }
+    #timeline-slider .owl-stage-outer {
+        padding-left: 0px!important;
+    }
+    #timeline-slider .owl-stage-outer .empty{
+        display: none !important;
+    }
+    .perks-vr-line:after,.perks-hr-line:before{
+        display: none !important;
+    }
+    .hire-step-content {
+        padding: 54px 12px !important;
+    }
+    .hire-step {
+        max-width: 270px;
+        padding: 16px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .hire-step-process {
+        margin-bottom: 16px !important;
+    }
+    .hire-step .hire-step-arrow {
+        top: auto !important;
+        left: 53% !important;
+        bottom: -11px !important;
+        transform: rotate(120deg) !important;
+        transform-origin: left !important;
+    }
+    
 }
 
 @media only screen and (max-width: 991.98px) {
     #header .mobile-con-btn, .mobile-theme-color-change-btn {
         display: inline-block;
     }
+  
     h3 {
         line-height: 32px;
     }
@@ -629,6 +659,10 @@
     .teamphoto-sm .right-teamphoto {
         max-width: 152px;
     }
+    .hire-step-icon {
+        width: 42px;
+        height: 42px;
+    }
 }
 
 
@@ -641,6 +675,24 @@
     }
     .teamphoto-sm .right-teamphoto {
         max-width: 125px;
+    }
+    .hire-step {
+        padding: 8px !important;
+    }
+    .hire-step-content {
+        padding: 12px 4px 6px !;
+    }
+    .hire-step-icon {
+        margin-bottom: 16px !important;
+        width: 30px;
+        height: 30px;
+    }
+    /* .hire-step{
+       margin: 0 !important;
+    } */
+    .hire-step-heading {
+        font-size: .75rem !important;
+        line-height: 14.4px;
     }
 }
 
@@ -661,4 +713,13 @@
         font-size: 1.75rem !important;
         line-height: 2.875rem !important;
     }
+    .hire-step-content {
+        padding: 15px 10px !important;
+    }
+    .hire-step:before {
+        content: "" !important;
+        width: 48px !important;
+        background-size: 14px !important;
+    }
+   
 }
