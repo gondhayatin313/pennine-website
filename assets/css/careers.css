@@ -1,0 +1,196 @@
+
+.perks-vr-line,.perks-hr-line {
+    position: relative;
+}
+.perks-hr-line:before {
+    content: "";
+    height: 1px;
+    background: linear-gradient(90deg, #0a0c10, #32478a, #0a0c10 100%, #0a0c10 0);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.perks-vr-line:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    background: linear-gradient(#0a0c10, #32478a, #0a0c10 100%, #0a0c10 0);
+    height: 100%;
+    top: 0;
+}
+.perks-col {
+    padding: 25px;
+}
+
+.perks-col:nth-of-type(odd) .perks-item {
+    padding-left: 30px;
+}
+.perks-item .perks-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.perks-item .perks-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem !important;
+}
+.perks-item p{
+    padding-bottom: 0 !important;
+}
+.position-item {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    min-height: 250px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.bg-flutter {
+    background-color: #e6e6fa;
+}
+.bg-reactnative {
+    background-color: #fff9b3;
+}
+.bg-uiux {
+    background-color: #f8c9d0;
+}
+.bg-reactjs {
+    background-color: #97d4ff;
+}
+.bg-nodejs {
+    background-color: #ffc9f8;
+}
+.bg-python {
+    background-color: #e4fcae;
+}
+.bg-bde {
+    background-color: #90edf9;
+}
+.position-item .pi-vector {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+   
+}
+.position-item .btn-apply {
+    border-radius: 100px;
+    min-width: 120px;
+    background-color: #32478a;
+    color: #fff;
+    cursor: pointer;
+}
+.position-item .position-content {
+    padding-bottom: 10px;
+    font-size: 14px !important;
+    position: relative;
+}
+.position-item div {
+    z-index: 2;
+}
+.position-item .position-content h6{
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    line-height: 19.2px;
+}
+.position-item .position-content p{
+    margin-bottom: 0 !important;
+}
+.hire-step {
+    position: relative;
+    padding: 15px;
+    border: 3px solid #32478a;
+    border-radius: 40px;
+    margin: 0px 3px;
+}
+.hire-step-process{
+    margin-top: 30px;
+}
+.hire-step:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    content: "";
+    width: 90px;
+    height: 3px;
+    background-size: 16px;
+    background-image: linear-gradient(to right, #fff 80%, #32478a 20%);
+    top: -3px;
+   
+}
+.hire-step-process:nth-child(2n) .hire-step:before {
+    top: auto;
+    bottom: -3px;
+}
+.hire-step .hire-step-arrow {
+    top: 50%;
+    transform: translate(100%, -50%);
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+.hire-step-content {
+    padding: 40px 6px 21px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 3px 20px rgba(10,12,16,.1)!important;
+}
+.hire-step-icon{
+    margin-bottom: 30px;   
+    margin-left: auto;
+    margin-right: auto;
+}
+.hire-step-heading {
+    min-height: 34px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.heading-photo:before {
+    content: attr(data-text-start);
+    top: -42px;
+}
+.heading-photo:after {
+    content: attr(data-text-end);
+    bottom: -42px;
+}
+.heading-photo{
+    position: relative;
+    display: inline-flex;
+    margin: 20px 0px;
+    text-transform: uppercase !important
+}
+.heading-photo:after{
+    right: 0 !important;
+    left: auto !important;
+}
+.heading-photo:before,.heading-photo:after {
+    letter-spacing: 7.2px;
+    -webkit-text-fill-color: unset;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: unset;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    position: absolute;
+    left: 0;
+}
+.heading-photo span {
+    font-size: 4.5rem;
+    color: #000;
+    -webkit-text-fill-color: #0a0c10;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}

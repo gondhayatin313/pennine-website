@@ -874,6 +874,9 @@ footer .text-address, .menu-list li  {
     line-height: 30px;
     color: #16181c;
 }
+footer .menu-list li a{
+    color: #16181c;
+}
 .menu-list .cm-icon{
     background: transparent linear-gradient(132deg, #32478a, #32478a) 0 0 no-repeat padding-box;
     padding: 7px;
