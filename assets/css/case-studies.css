@@ -1,0 +1,36 @@
+.case-studies-hero-content{
+    max-width: 600px;
+}
+.our-case-studies{
+    background-color: #eff2fc ;
+}
+.card-case-studies {
+    border: none;
+    
+}
+
+.our-case-studies .card-body{
+    padding: 20px 10px;
+    box-shadow: 0 .15rem .25rem rgba(10,12,16,.05)!important;
+   
+}
+.card-case-studies .card-img {
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px !important;
+
+}
+.card-case-studies .card-img img {
+ 
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    transition: .5s;
+   
+}
+
+ 
+  .card-case-studies :hover img {
+    transition: .5s;
+     transform: scale(1.04);
+    
+}

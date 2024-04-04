@@ -289,7 +289,12 @@
         transform: rotate(120deg) !important;
         transform-origin: left !important;
     }
-    
+    .card-case-studies .card-img img {
+        height: 100% !important;
+    }
+    .card-case-studies-meta{
+        display: none !important;
+    }
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -616,6 +621,9 @@
     .what-we-item .what-we-icon {
         margin-left: auto !important;
         margin-right: auto !important;
+    }
+    .perks-col:nth-of-type(odd) .perks-item {
+        padding-left: 0px !important;
     }
 }
 

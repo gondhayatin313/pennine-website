@@ -194,3 +194,38 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
 }
+
+.tabs-section .tabs-menu.tabs-menu-text .nav-tabs button:hover{
+    border: none;
+   
+}
+.tabs-section .tabs-menu.tabs-menu-text .nav-tabs button.active{
+    color: #32478a !important;
+    background: none;
+    border: none;
+}
+
+.tabs-section .tabs-menu.tabs-menu-text .nav-tabs .nav-link{
+    color: #fff !important;
+    border: none; 
+    font-size: 1.125rem;
+    white-space: nowrap;
+}
+.tabs-section .tabs-menu.tabs-menu-text .nav-tabs .nav-link:not(.active) {
+    opacity: .4;
+}
+.tabs-section .tabs-menu-text {
+    margin-top: 40px;
+}
+.tabs-section .tabs-menu .nav-tabs{
+    display: flex !important;
+    justify-content: space-around;
+    border: none;
+}
+.tabs-section .tab-content{
+    margin: 50px 30px;
+}
+.pg-item {
+    border: 2px solid hsla(0, 0%, 100%, .2);
+    margin-bottom: 0.5rem;
+}
