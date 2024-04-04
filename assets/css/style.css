@@ -108,6 +108,9 @@ h1 {
  .font-12 {
   font-size: 12px !important;
 }
+.font-16{
+  font-size: 16px !important;
+}
 .social-links a{
   color: #32478a;
 }
@@ -118,3 +121,16 @@ img{
   background-color: #0a0c10;
   color: #fff;
 }
+.accordion-button:not(.collapsed)::after{
+  width: 20px;
+  height: 2px;
+  background:#32478a;
+}
+
+.accordion-button::after{
+  width: 2px;
+  height: 20px;
+  background:#32478a;
+}
+
+
