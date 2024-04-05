@@ -292,9 +292,7 @@
     .card-case-studies .card-img img {
         height: 100% !important;
     }
-    .card-case-studies-meta{
-        display: none !important;
-    }
+    
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -624,6 +622,15 @@
     }
     .perks-col:nth-of-type(odd) .perks-item {
         padding-left: 0px !important;
+    }
+    .card-case-studies-meta {
+        display: none !important;
+    }
+    .our-case-studies .card-body h4{
+        font-size: 1.125rem;
+    }
+    .our-case-studies .card-body {
+        padding: 8px !important;
     }
 }
 
