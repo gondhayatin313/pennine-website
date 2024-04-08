@@ -132,5 +132,19 @@ img{
   height: 20px;
   background:#32478a;
 }
+.section-gradient-2{
+  background-color: #eff2fc;
+}
+.sitemap-section .sitemap-block {
+  margin-bottom: 70px;
+}
 
+.sitemap-section .sitemap-list .list-squre{
+  display: grid;
+  margin-top: .5rem !important;
+  grid-template-columns: repeat(4, 1fr);
+}
 
+.sitemap-section .sitemap-list .list-squre li a {
+  color: #000;
+}
