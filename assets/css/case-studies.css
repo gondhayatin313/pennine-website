@@ -33,3 +33,83 @@
 	transform: scale(1.04);
 
 }
+
+
+
+/* case studies  details css start here */
+
+.page-casestudies-details .banner-image .banner-main-img img {
+    border-radius: 20px;
+    box-shadow: 0 3px 20px #32478a59;
+}
+
+.page-casestudies-details .card-platform {
+	margin: 40px 0px;
+}
+
+.page-casestudies-details .banner-image {
+    margin-bottom: -300px;
+}
+
+.statistics-section {
+    padding-top: 320px;
+	padding-bottom: 100px;
+}
+
+.statistics-section .cs-icon{
+	margin-bottom: 24px;
+
+}
+.mission-section {
+	padding: 100px 0px;
+}
+.mission-section .mission-main-image img {
+	box-shadow: 0 .15rem .25rem rgba(10,12,16,.05)!important;
+}
+
+.features-section .features-item {
+	background-color: #fff;
+    padding: 24px 24px 8px;
+    text-align: center;
+    height: 100%;
+	box-shadow: 0 .15rem .25rem rgba(10,12,16,.05)!important;
+}
+
+.features-section .features-item .features-head, .features-icon {
+    margin-bottom: 20px;
+}
+
+.portfolio-techstack {
+	padding: 120px 0px;
+}
+.portfolio-techstack .tech-stack-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 0;
+    margin-top: 30px !important;
+	padding-left: 0;
+    list-style: none;
+	gap: 24px;
+	
+
+}
+.portfolio-techstack .tech-stack-list li {
+    border-radius: 40px;
+    color: #0a0c10;
+    padding: 10px 24px;
+    min-width: 164px;
+	background-color: #f7f9fb;
+	box-shadow: 0 .15rem .25rem rgba(10,12,16,.05)!important;
+}
+.portfolio-techstack .tech-stack-list li a {
+	color: #0a0c10;
+}
+
+.liked-youread-container {
+    padding: 30px 60px;
+    border-radius: 38px;
+	/* background-color: #32478a; */
+	background: transparent linear-gradient(99deg, #32478a, #000) 0 0 no-repeat padding-box;
+	color: #fff;
+}

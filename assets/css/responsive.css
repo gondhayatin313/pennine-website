@@ -255,7 +255,7 @@
         object-position: left top;
         margin-top: 40px;
     }
-    .hide-sm {
+    .hide-sm, .liked-youread-container img {
         display: none;
     }
     .slider-hr-line:before{
@@ -292,7 +292,16 @@
     .card-case-studies .card-img img {
         height: 100% !important;
     }
-    
+    .statistics-section {
+        padding-top: 165px !important;
+    }
+    .page-casestudies-details .banner-image {
+        margin-bottom: -200px !important;
+    }
+    .mission-section .mission-section-content  {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
 }
 
 @media only screen and (max-width: 991.98px) {
