@@ -21,18 +21,20 @@
     top: 0;
 }
 .perks-col {
-    padding: 25px;
+    padding: 30px;
 }
-
+/* 
 .perks-col:nth-of-type(odd) .perks-item {
-    padding-left: 30px;
-}
+    padding-right: 10px;
+} */
 .perks-item .perks-header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-
+.statistics-section .card-statistics {
+    padding-top: 20px;
+}
 .perks-item .perks-icon {
     width: 48px;
     height: 48px;
