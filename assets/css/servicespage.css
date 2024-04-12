@@ -82,6 +82,7 @@
     background-color: #32478a !important;
     position: absolute;
     left: 0;
+    border-radius: 10px;
 }
 .section-techstack h6{
     font-weight: 600;
@@ -199,9 +200,7 @@
     height: 11px;
 }
 .benefits-section .owl-theme .owl-dots .owl-dot span {
-    border-radius: 0 !important;
-    transform: rotate(45deg) !important;
-    opacity: .75;
+       opacity: .75;
     background-color: #dbe2e7 !important;
 
 }

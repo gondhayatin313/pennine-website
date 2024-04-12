@@ -113,7 +113,7 @@
     line-height: 20px;
 }
 .card-cta {
-    padding: 50.5px 30px;
+    padding: 54.5px 30px;
 }
 #header .dropdown-fluid .dropdown-col-second {
     max-width: 406px;
@@ -674,7 +674,7 @@
 /* testimonial css start here  */
 
     .testimonial{
-        padding: 100px 0;
+        padding: 50px 0;
         .row{
             .tabs{
                 all: unset;
@@ -853,6 +853,11 @@
     #techstack {
         padding: 100px 0px;
     }
+    #techstack .nav-pills{
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: auto;
+    }
     
     .tech-content{
         margin-top: 10px;
@@ -870,7 +875,8 @@
     }
     .tech-box:hover {
         border: 2px solid #32478a;
-        transition: .85s;        
+        transition: .85s;  
+        transform: scale(1.1);      
     }
     
     .tech-box img {
@@ -920,6 +926,15 @@
         align-items: flex-end;
     }
 
+    #portfolio .side-panel {
+        box-shadow: 0 3px 20px rgba(10,12,16,.1)!important;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    #portfolio .tech-content{
+        padding: 10px;
+    }
+  
     #portfolio .tech-content a {
         color: #32478a !important;
         font-size: 1rem;
@@ -927,18 +942,25 @@
     }
     #portfolio .nav-pills .nav-link.active:after {
         content: "";
-        width: 10px;
-        height: 10px;
-        right: 16px;
-        transform: translateY(-50%) rotate(45deg);
-        top: 50%;    
+        width: 12px;
+        height: 12px;        
+        transform: translateY(-50%) rotate(45deg);         
         font-size: 8px;
         padding: 1px 5px;
         background: #32478a;
         margin-left: 30px;
+        border-radius: 10px;
     }
    
 /* end portfolio tabs css here */
+.list-tick{
+    padding: 0;
+}
+    .list-tick li {
+        list-style: none;
+        background: url(/assets/img/icons/check.svg) no-repeat left top;
+        padding-left: 30px;
+    }
 
 
 /* blog section css start here */
