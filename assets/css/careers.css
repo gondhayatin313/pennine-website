@@ -87,8 +87,25 @@
     min-width: 120px;
     background-color: #32478a;
     color: #fff;
-    cursor: pointer;
+    cursor: pointer;  
+     transition: .85s;
 }
+.position-item .btn-apply:hover{
+    transition: .85s;   
+    animation: bubble 0.4s ease-out;
+   
+}
+@keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 .position-item .position-content {
     padding-bottom: 10px;
     font-size: 14px !important;
