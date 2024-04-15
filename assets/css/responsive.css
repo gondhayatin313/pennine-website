@@ -309,6 +309,7 @@
         background-color: none;
         
     }
+   
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -488,6 +489,9 @@
     #section-infrastructure {
         padding: 40px 0px;
     }
+    #testimonial .carousel-indicators button{
+        visibility: visible !important;
+     }
 
     #carouselExampleIndicators .slider-items {
         padding: 20px;

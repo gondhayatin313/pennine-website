@@ -1,26 +1,46 @@
-$(document).ready(function () {
-   $(".testimonial .indicators li").click(function () {
-      var i = $(this).index();
-      var targetElement = $(".testimonial .tabs li");
-      targetElement.eq(i).addClass('active');
-      targetElement.not(targetElement[i]).removeClass('active');
-   });
-   $(".testimonial .tabs li").click(function () {
-      var targetElement = $(".testimonial .tabs li");
+$(document).ready(function () {        
+   $("#testimonial .tabs li").click(function () {
+      var targetElement = $("#testimonial .tabs li");
       targetElement.addClass('active');
       targetElement.not($(this)).removeClass('active');
    });
 });
-$(document).ready(function () {
-   $(".slider .swiper-pagination span").each(function (i) {
-      $(this).text(i + 1).prepend("0");
-   });
-});
+
+
+
+ $(document).ready(function () {
+
+   $('.client-single').on('click', function (event) {
+      event.preventDefault();
+
+      var active = $(this).hasClass('active');
+
+      var parent = $(this).parents('.testi-wrap');
+
+      if (!active) {
+          var activeBlock = parent.find('.client-single.active');
+
+          var currentPos = $(this).attr('data-position');
+
+          var newPos = activeBlock.attr('data-position');
+
+          activeBlock.removeClass('active').removeClass(newPos).addClass('inactive').addClass(currentPos);
+          activeBlock.attr('data-position', currentPos);
+
+          $(this).addClass('active').removeClass('inactive').removeClass(currentPos).addClass(newPos);
+          $(this).attr('data-position', newPos);
+
+      }
+  });
+
+}(jQuery));
 
 $('.switch').on('click', function (e) {
    $('body').toggleClass("menu-open"); //you can list several class names 
    e.preventDefault();
 });
+
+
 
 
 $('#benefits-slider').owlCarousel({
@@ -39,6 +59,26 @@ $('#benefits-slider').owlCarousel({
       }
    }
 })
+
+var owl = $('#client-logo-content');
+owl.owlCarousel({
+    items:6,
+    loop:true,
+    margin:10,
+    dots: false,
+    autoplay:true,
+    autoplayTimeout:800,
+    autoplayHoverPause:false
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[800])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+
+
+
 
 
 $('#portfolio-section').owlCarousel({
