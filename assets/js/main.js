@@ -62,20 +62,17 @@ $('#benefits-slider').owlCarousel({
 
 var owl = $('#client-logo-content');
 owl.owlCarousel({
-    items:6,
-    loop:true,
-    margin:10,
-    dots: false,
-    autoplay:true,
-    autoplayTimeout:800,
-    autoplayHoverPause:false
+   items:5,
+   loop:true,
+   margin:10,
+   dots:false,
+   nav: false,
+   autoplay: true,
+   slideTransition: 'linear',
+   autoplayTimeout: 2000,
+   autoplaySpeed: 10000,
+   autoplayHoverPause: false
 });
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[800])
-})
-$('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
-})
 
 
 

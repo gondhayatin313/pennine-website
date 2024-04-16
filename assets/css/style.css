@@ -66,6 +66,10 @@ h1 {
   line-height: 30px;
   margin-bottom: 18px
  }
+ .section {
+  position: relative;
+ }
+ 
 .heading-dark{
     color: #000;
   }
@@ -107,6 +111,9 @@ h1 {
 }
 .font-600{
   font-weight: 600;
+}
+.font-400{
+  font-weight: 400;
 }
  .font-12 {
   font-size: 12px !important;

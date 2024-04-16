@@ -41,7 +41,7 @@
     overflow: hidden !important;
     text-align: center;
     padding: 20px 20px 4px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid #3c3c3c;
     margin-bottom: 30px;
 }
@@ -51,9 +51,8 @@
     left: 0;
     top: 0;
     content: "";
-    border-radius: 20px;    
+    border-radius: 10px;    
     backdrop-filter: blur(40px);    
-    background-color: hsla(0, 0%, 100%, .05);
     z-index: 1;
     height: 100% !important;
     width: 100%;
@@ -230,6 +229,7 @@
 
 #timeline-slider .item .timeline-item-inner .timeline-desc-card {
     padding: 20px;
+    border-radius: 10px;
     background-color: #fff;
 }
 #timeline-slider .item .timeline-item-inner .timeline-desc-card h6{
@@ -268,6 +268,10 @@
     margin-bottom: 30px;
     font-size: 28px;
     line-height: 42px;
+}
+
+.our-culture-section .item img {
+    border-radius: 10px;
 }
 
 #our-culture-slider {
