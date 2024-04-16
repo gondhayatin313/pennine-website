@@ -489,10 +489,13 @@
     #section-infrastructure {
         padding: 40px 0px;
     }
+    #testimonial .carousel-indicators{
+        position: static;
+     }
     #testimonial .carousel-indicators button{
         visibility: visible !important;
      }
-
+    
     #carouselExampleIndicators .slider-items {
         padding: 20px;
         /* display: block !important; */
