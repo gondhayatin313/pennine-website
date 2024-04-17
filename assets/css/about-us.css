@@ -270,7 +270,7 @@
     line-height: 42px;
 }
 
-.our-culture-section .item img {
+.our-culture-section .item img, .about-count, .section-web-preview video {
     border-radius: 10px;
 }
 
