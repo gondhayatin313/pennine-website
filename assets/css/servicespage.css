@@ -34,7 +34,14 @@
     text-align: center;
     padding: 8px;
     background-color: transparent !important;
-    border: 1px solid #eceded;
+    border: 2px solid #eceded;
+}
+
+#services .services-card {
+    background-color: #eff2fc;
+    padding: 20px 30px;
+    border-radius: 10px;
+    height: 100%;
 }
  .tools-list-btn .tools-item:not(:last-child), .tools-list-outline .tools-item:not(:last-child) {
     margin-right: 16px !important;
@@ -47,10 +54,6 @@
 }
 .services-list .services-card .services-icon img {
     margin-bottom: 20px;
-}
-.section-techstack{
-    background-color: #0a0c10;
-    color: #fff;
 }
 .techstack-content .techstack-img {
     right: 0 !important;
@@ -292,7 +295,6 @@
 .section-process .process-left {
     position: sticky !important;
     top: 96px;
-    height: calc(100vh - 96px);
     display: flex;
     flex-direction: column;
 }

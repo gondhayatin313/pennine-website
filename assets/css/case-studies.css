@@ -39,7 +39,7 @@
 /* case studies  details css start here */
 
 .page-casestudies-details .banner-image .banner-main-img img {
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 3px 20px #32478a59;
 }
 
@@ -68,11 +68,15 @@
 }
 
 .features-section .features-item {
-	background-color: #fff;
+	background-color: #eff2fc;
     padding: 24px 24px 8px;
+	border-radius: 10px;
     text-align: center;
     height: 100%;
-	box-shadow: 0 .15rem .25rem rgba(10,12,16,.05)!important;
+}
+.features-section .features-item:hover{
+	background-color: #ffffff;
+	box-shadow: .15rem .10rem .15rem .10rem rgba(10,12,16,.05);
 }
 
 .features-section .features-item .features-head, .features-icon {
@@ -100,10 +104,14 @@
     padding: 10px 24px;
     min-width: 164px;
 	background-color: #f7f9fb;
-	box-shadow: 0 .15rem .25rem rgba(10,12,16,.05)!important;
+	box-shadow: 0 .15rem .25rem rgba(10,12,16,.05);
 }
 .portfolio-techstack .tech-stack-list li a {
 	color: #0a0c10;
+}
+
+.Challenge-section img, .solution-section img, .mission-main-image img{
+	border-radius: 10px;
 }
 
 .liked-youread-container {
