@@ -131,16 +131,12 @@ img{
   background-color: #000;
   color: #fff;
 }
-.accordion-button:not(.collapsed)::after{
-  width: 20px;
-  height: 2px;
-  background:#32478a;
+.faqs-setion .accordion-button:not(.collapsed)::after{
+  background-image: url("/assets/img/icons/minus-blue-icon.svg");
 }
 
-.accordion-button::after{
-  width: 2px;
-  height: 20px;
-  background:#32478a;
+.faqs-setion .accordion-button::after{   
+  background-image: url("/assets/img/icons/plus-blue-icon.svg");
 }
 .section-gradient-2{
   background-color: #eff2fc;

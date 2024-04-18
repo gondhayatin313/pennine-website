@@ -1,3 +1,15 @@
+$(document).ready(function () {
+   $('.navbar-toggler').click(function () {
+       if ($(this).attr('aria-expanded') === 'true') {
+           $('body').addClass('menu-open');
+       } else {
+           $('body').removeClass('menu-open');
+       }
+   });
+});
+
+
+
 $(document).ready(function () {        
    $("#testimonial .tabs li").click(function () {
       var targetElement = $("#testimonial .tabs li");
@@ -5,7 +17,6 @@ $(document).ready(function () {
       targetElement.not($(this)).removeClass('active');
    });
 });
-
 
 
  $(document).ready(function () {
@@ -148,6 +159,10 @@ $('.play').on('click', function () {
 $('.stop').on('click', function () {
    owl.trigger('stop.owl.autoplay')
 })
+
+
+
+
 
 
 AOS.init();
