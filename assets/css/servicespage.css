@@ -347,16 +347,23 @@
 .our-approach-section  .accordion-item:first-child {
     border-top: 0;
 }
-.our-approach-section .accordion-button:after {
+
+
+.our-approach-section .accordion-button::after {
     background-size: 12px;
     background-position: 50%;
-    border-radius: 50% !important;
-    background-color: #0a0c10;
+    border-radius: 50%;    
     position: absolute;
+    background-color: #000;
     left: 0;
-    padding: 10px;
-    color: #fff;
+    padding: 10px;      
+    background-image: url("/assets/img/icons/whiteplusicon.svg");    
 }
+
+.our-approach-section .accordion-button:not(.collapsed)::after {
+    background-image: url("/assets/img/icons/whiteminusicon.svg");
+  }
+
 
 .faqs-setion .accordion .accordion-item .accordion-button {
     line-height: 28px;

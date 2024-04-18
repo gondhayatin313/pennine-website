@@ -8,11 +8,20 @@
     padding: 15px;
     box-shadow: 0 .15rem .25rem rgba(10,12,16,.05)!important;
   }
-
   #header .nav-item a,button {
     font-weight: 500;
   }
+  .menu-open {
+    overflow: hidden; /* Prevent scrolling when menu is open */
+}
 
+#header .nav-item .show .caret-icon svg{
+    transform: rotate(-180deg);
+}
+
+#header .caret-icon svg {
+    transition: all .3s ease-out;
+}
   #header .nav-item .nav-link {
     padding: 0px 20px;
   }
