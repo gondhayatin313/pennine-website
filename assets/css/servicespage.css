@@ -152,14 +152,14 @@
 }
 
 .benefits-slider .slider-item {
-    margin: 0 15px;
-    height: 100% !important;
+    margin: 0 15px;  
 }
+
 .benefits-slider .slider-item .slider-inner-item {
     cursor: move;
     padding: 24px 30px 8px;
     --tw-bg-opacity: 0.05;
-    height: 100% !important;
+    /* height: 100% !important; */
     border-radius: 10px;
     box-shadow: 0 2px 20px #0a0c100d;
 }

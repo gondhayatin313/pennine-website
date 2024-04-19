@@ -157,4 +157,7 @@ img{
 .section-gradient-3 {  
   background-image: linear-gradient(1turn, #eff2fc 0, #fff 100%);
 }
+.rounded-10{
+  border-radius: 10px;
+}
 
