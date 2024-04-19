@@ -8,7 +8,15 @@ $(document).ready(function () {
    });
 });
 
+// $(window).scroll(function() {    
+//    var scroll = $(window).scrollTop();
 
+//    if (scroll >= 100) {
+//        $("#header").addClass("sticky-header");
+//    } else {
+//        $("#header").removeClass("sticky-header");
+//    }
+// });
 
 $(document).ready(function () {        
    $("#testimonial .tabs li").click(function () {

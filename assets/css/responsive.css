@@ -356,7 +356,7 @@
 
     .menu-open #header .btn-menu-toggle span:first-of-type {
         transform-origin: bottom;
-        transform: rotate(45deg) translate(3px, 1px);
+        transform: rotate(45deg) translate(3px, 2px);
     }
 
     #header .btn-menu-toggle span:nth-of-type(2) {
@@ -375,7 +375,7 @@
     .menu-open #header .btn-menu-toggle span:nth-of-type(3) {
         transform-origin: bottom;
         width: 50%;
-        transform: translate(10.5px, -4.5px) rotate(45deg);
+        transform: translate(10.5px, -4.8px) rotate(45deg);
     }
 
     #header {
@@ -394,7 +394,6 @@
     #header .mobile-nav-menu {
         position: fixed;
         height: 100vh !important;
-        /* height: calc(100vh - 100px);         */
         right: -100%;
         top: 65px;
         width: 100%;
