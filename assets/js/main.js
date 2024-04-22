@@ -7,16 +7,13 @@ $(document).ready(function () {
        }
    });
 });
+ 
 
-// $(window).scroll(function() {    
-//    var scroll = $(window).scrollTop();
+function toggleDarkMode() {
+   var body = document.body;
+   body.classList.toggle('dark-mode');
+}
 
-//    if (scroll >= 100) {
-//        $("#header").addClass("sticky-header");
-//    } else {
-//        $("#header").removeClass("sticky-header");
-//    }
-// });
 
 $(document).ready(function () {        
    $("#testimonial .tabs li").click(function () {
@@ -24,6 +21,20 @@ $(document).ready(function () {
       targetElement.addClass('active');
       targetElement.not($(this)).removeClass('active');
    });
+
+   var lastScrollTop = 0;
+  $(window).scroll(function(event){
+    var st = $(this).scrollTop();
+    if (st > lastScrollTop){
+      // Scroll down
+      $('.pennine-nav').css('top', '-100px'); // Hide header
+    } else {
+      // Scroll up
+      $('.pennine-nav').css('top', '0'); // Show header
+    }
+    lastScrollTop = st;
+  });
+  
 });
 
 
