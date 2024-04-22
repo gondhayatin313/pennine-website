@@ -3,22 +3,34 @@
 
 /* header css start here */
 
+#header {
+    min-height: 80px;
+}
 
-#header  {
-    padding: 15px;
+#header .pennine-nav  {
+    padding: 16px 10px;
     box-shadow: 0 .15rem .25rem rgba(10,12,16,.05)!important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background: #fff;    
+    transition: all .3s ease-out;
   }
+
   #header .nav-item a,button {
     font-weight: 500;
   }
+
+  #header .pennine-header-logo{
+    max-height: 40px !important;
+  }
+
   .menu-open {
     overflow: hidden; /* Prevent scrolling when menu is open */
 }
-
-/* .sticky-header{
-    position: sticky;
-    top: 0px;      
-} */
 
 #header .nav-item .show .caret-icon svg{
     transform: rotate(-180deg);
@@ -163,7 +175,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 81px;
+    top: 80px;
     margin: auto;
     box-shadow: 0 3px 40px #0a0c1014 !important;
 }
