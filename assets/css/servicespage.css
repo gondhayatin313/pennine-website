@@ -347,7 +347,10 @@
 .our-approach-section  .accordion-item:first-child {
     border-top: 0;
 }
-
+.accordion-button:focus{
+    box-shadow: none;
+    
+  }
 
 .our-approach-section .accordion-button::after {
     background-size: 12px;
@@ -379,7 +382,7 @@
 }
 
 .faqs-setion .accordion  .accordion-button:not(.collapsed) {
-    background-color: #fff !important;
+    background-color: #fff;
 }
 
 /* .accordion .accordion-item .accordion-button span{

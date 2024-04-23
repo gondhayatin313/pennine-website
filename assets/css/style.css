@@ -161,3 +161,67 @@ img{
   border-radius: 10px;
 }
 
+.dark-mode .breadcrumb-item.active{
+  color: #32478a;
+}
+
+/* dark mode css start here */
+
+.dark-mode, .dark-mode .pennine-nav, .dark-mode  #portfolio .side-panel, .dark-mode .our-case-studies, .dark-mode .emerging-item {
+  background-color: #000 !important; 
+  }
+  
+  .dark-mode .nav-item .show{
+    color: #32478a;
+  }
+  .dark-mode .our-approach-section .accordion-button::after{
+    background-color: #32478a;
+  }
+
+
+.dark-mode h1, .dark-mode h2, .dark-mode .accordion-body, .dark-mode .our-approach-section .accordion .accordion-button, .dark-mode #header .dm-item-list ul li, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6, .dark-mode p, .dark-mode a, .dark-mode .nav-link, .dark-mode footer .text-address {
+  color: #fff;
+}
+.dark-mode footer .menu-list li a, .dark-mode .card-case-studies .card-body h4 span, .dark-mode .portfolio-section .item .slider-content h5 span{
+  color: #fff !important;
+}
+
+.dark-mode .botton-2 {
+  background-color: #ffffff;
+  color: #000 !important; 
+}
+
+.dark-mode #header .dropdown-fluid .dropdown-col-first h6, .dark-mode .form-section .form-card, .dark-mode .sitemap-section .sitemap-list .list-squre li a  , .dark-mode .radio-list .form-check-label span ,  .dark-mode .faqs-setion .accordion .accordion-item .accordion-button, .dark-mode .helpdesk-card .helpdesk-content a, .dark-mode .breadcrumb-menu .breadcrumb-item a, .dark-mode footer .footer-bottom a{
+  color: #fff;
+}
+
+.dark-mode #header .dropdown-fluid .dropdown-col-first, .dark-mode .faqs-setion .accordion .accordion-button:not(.collapsed),  .dark-mode .faqs-setion .accordion .accordion-item .accordion-button, .dark-mode .faqs-setion .accordion .accordion-item, .dark-mode #services .services-card, .dark-mode .dark-mode .hire-step-content, .dark-mode .card-case-studies, .dark-mode .card-cta-light, .dark-mode #timeline-slider .item .timeline-item-inner .timeline-desc-card, .dark-mode .form-section .form-card {
+  background-color: #0a0c10;
+}
+/* .dark-mode .faqs-setion .accordion .accordion-item{
+  border: 1px solid transparent;
+} */
+
+.dark-mode .section-gradient-ss, .dark-mode .section-gradient-3, .dark-mode .section-dark , .dark-mode .section-gradient-2, .dark-mode .tech-box, .dark-mode .service-box-color {
+  background-color: #0a0c10 ;
+  background-image: none;
+}
+.dark-mode .position-content h6, .dark-mode .position-content p, .dark-mode .card-upload .fileupload .upload-text span {
+  color: #000;
+}
+.dark-mode .icon-theme-light {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dark-mode .icon-theme-dark {
+  opacity: 1;
+  visibility: visible;
+}
+.icon-theme-dark{
+  opacity: 0;
+  visibility: hidden;
+}
+.dark-mode #header .btn-menu-toggle span{
+  background-color: #fff;
+}
