@@ -9,10 +9,24 @@ $(document).ready(function () {
 });
  
 
-function toggleDarkMode() {
-   var body = document.body;
-   body.classList.toggle('dark-mode');
+
+const body = document.querySelector('body');
+const button = document.querySelector('#darkbutton');
+function toggleDark() {
+  if (body.classList.contains('dark-mode')) {
+    body.classList.remove('dark-mode');
+    localStorage.setItem("theme", "light");   
+  } else {
+    body.classList.add('dark-mode');
+    localStorage.setItem("theme", "dark-mode");  
+  }
 }
+if (localStorage.getItem("theme") === "dark-mode") {
+  body.classList.add('dark-mode');
+}
+document.querySelector('#darkbutton').addEventListener('click', toggleDark);
+
+
 
 
 $(document).ready(function () {        
@@ -65,10 +79,17 @@ $(document).ready(function () {
 
 }(jQuery));
 
+
+
+
+
+
 $('.switch').on('click', function (e) {
    $('body').toggleClass("menu-open"); //you can list several class names 
    e.preventDefault();
 });
+
+
 
 
 
@@ -89,6 +110,9 @@ $('#benefits-slider').owlCarousel({
       }
    }
 })
+
+
+
 
 var owl = $('#client-logo-content');
 owl.owlCarousel({
@@ -172,6 +196,8 @@ owl.owlCarousel({
       }
    }
 });
+
+
 $('.play').on('click', function () {
    owl.trigger('play.owl.autoplay', [1000])
 })

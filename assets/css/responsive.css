@@ -6,10 +6,6 @@
         margin-bottom: 20px !important;
     }
 
-    /* #hero-section {
-        height: auto;
-    } */
-
     #hero-section h1 {
         font-size: 1.75rem;
         line-height: 38px;
@@ -113,11 +109,6 @@
         font-size: 1.5rem;
         line-height: 32px;
     }
-
-    /* #hero-section {       
-        display: flex;
-        align-items: center;
-    } */
 
     h1 {
         font-size: 1.875rem;
@@ -242,9 +233,6 @@
         font-size: 15px;
     }
 
-    /* #cta-section .cta-picture{
-        display: none;
-    } */
     #cta-section {
         text-align: center;
     }
@@ -315,7 +303,7 @@
 }
 
 @media only screen and (max-width: 991.98px) {
-    #header .mobile-con-btn, .mobile-theme-color-change-btn {
+    #header .mobile-con-btn{
         display: inline-block;
     }
   
@@ -345,6 +333,9 @@
         transition: .4s cubic-bezier(.68, -.6, .32, 1.6);
         line-height: 24px !important;
     }
+    .dark-mode #header .mobile-nav-menu{
+        background-color: #0a0c10;
+      }
 
     #header .navbar-toggler:focus {
         box-shadow: none;
@@ -390,7 +381,7 @@
         font-size: 1.125rem !important;
         font-weight: 500 !important;
     }
-
+   
     #header .mobile-nav-menu {
         position: fixed;
         height: 100vh !important;
@@ -421,15 +412,9 @@
         padding: 10px 0px;
     }
 
-    /* #header .mobile-contact-button {
-        visibility: visible;
-    } */
-    #header form {
-        visibility: hidden;
-    }
-
+  
     #header .mobile-nav-menu .navbar-nav {
-        height: 90%;
+        height: 80%;
     }
 
     #header .header-botton {
@@ -535,15 +520,12 @@
         margin-left: 0;
     }
 
-    #header .mobile-dropdown {
-        /* flex-wrap: wrap; */
+    #header .mobile-dropdown {     
         flex-direction: column;
     }
 
     #header .mobile-dropdown-2 {
-        justify-content: space-between;
-        /* flex-wrap: nowrap !important;
-        flex-direction: row !important; */
+        justify-content: space-between;        
     }
 
     #cta-section .cta-picture {
