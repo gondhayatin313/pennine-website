@@ -262,10 +262,7 @@
     right: 0;
     top: 290px;
 }
-.section-gradient-center {
-    background-color: #fff;
-    background-image: linear-gradient(1deg, #fff 0, #eff2fc 52%, #fff 100%);
-}
+
 .about-map {
     color: #fff !important;
 }

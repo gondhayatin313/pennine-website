@@ -174,10 +174,19 @@ img{
   .dark-mode .nav-item .show{
     color: #32478a;
   }
+  .dark-mode .section-gradient-center{
+    background-image: linear-gradient(1deg, #000 0, #21252e 50%, #000 100%);
+  }
   .dark-mode .our-approach-section .accordion-button::after{
     background-color: #32478a;
   }
 
+  .dark-mode .hire-step::before{
+    background-image: linear-gradient(to right, rgb(0 0 0) 80%, rgb(50, 71, 138) 20%);
+  }
+.dark-mode .hire-step-content { 
+  box-shadow: 0 3px 20px rgb(247 250 255 / 15%) !important;
+}
 
 .dark-mode h1, .dark-mode h2, .dark-mode .accordion-body, .dark-mode .our-approach-section .accordion .accordion-button, .dark-mode #header .dm-item-list ul li, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6, .dark-mode p, .dark-mode a, .dark-mode .nav-link, .dark-mode footer .text-address {
   color: #fff;
