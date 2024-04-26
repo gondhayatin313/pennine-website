@@ -36,6 +36,8 @@ $(document).ready(function () {
       targetElement.not($(this)).removeClass('active');
    });
 
+
+
    var lastScrollTop = 0;
   $(window).scroll(function(event){
     var st = $(this).scrollTop();
@@ -53,7 +55,6 @@ $(document).ready(function () {
 
 
  $(document).ready(function () {
-
    $('.client-single').on('click', function (event) {
       event.preventDefault();
 

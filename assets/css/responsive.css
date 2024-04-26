@@ -323,6 +323,12 @@
         display: flex;
         color: #000;
         flex-wrap: wrap;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+    }
+    #header .theme-color-change-btn {       
+        margin-right: 20px;      
     }
 
     #header .btn-menu-toggle span {
@@ -381,6 +387,7 @@
         font-size: 1.125rem !important;
         font-weight: 500 !important;
     }
+    
    
     #header .mobile-nav-menu {
         position: fixed;
@@ -394,7 +401,7 @@
         right: 0;
         transition: all 0.5s;
     }
-
+   
     #header .navbar-nav li {
         margin: 0;
     }
@@ -414,7 +421,7 @@
 
   
     #header .mobile-nav-menu .navbar-nav {
-        height: 80%;
+        height: 85%;
     }
 
     #header .header-botton {
