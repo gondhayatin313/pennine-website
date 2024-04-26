@@ -161,11 +161,13 @@ img{
   border-radius: 10px;
 }
 
+
+
+/* dark mode css start here */
+
 .dark-mode .breadcrumb-item.active{
   color: #32478a;
 }
-
-/* dark mode css start here */
 
 .dark-mode, .dark-mode .pennine-nav, .dark-mode  #portfolio .side-panel, .dark-mode .our-case-studies, .dark-mode .emerging-item {
   background-color: #000 !important; 
@@ -200,7 +202,7 @@ img{
   color: #000 !important; 
 }
 
-.dark-mode #header .dropdown-fluid .dropdown-col-first h6, .dark-mode .form-section .form-card, .dark-mode .sitemap-section .sitemap-list .list-squre li a  , .dark-mode .radio-list .form-check-label span ,  .dark-mode .faqs-setion .accordion .accordion-item .accordion-button, .dark-mode .helpdesk-card .helpdesk-content a, .dark-mode .breadcrumb-menu .breadcrumb-item a, .dark-mode footer .footer-bottom a{
+.dark-mode #header .dropdown-fluid .dropdown-col-first h6, .dark-mode strong, .dark-mode .form-section .form-card, .dark-mode .sitemap-section .sitemap-list .list-squre li a  , .dark-mode .radio-list .form-check-label span ,  .dark-mode .faqs-setion .accordion .accordion-item .accordion-button, .dark-mode .helpdesk-card .helpdesk-content a, .dark-mode .breadcrumb-menu .breadcrumb-item a, .dark-mode footer .footer-bottom a{
   color: #fff;
 }
 
@@ -234,3 +236,22 @@ img{
 .dark-mode #header .btn-menu-toggle span{
   background-color: #fff;
 }
+.dark-mode .benefits-slider .slider-item .slider-inner-item , .dark-mode .features-section .features-item, .dark-mode footer .clock-item-light {
+  background-color: #0a0c10;
+}
+.dark-mode #header .pennine-nav .pennine-color-logo {  
+  display: none;
+}
+.dark-mode #header .pennine-nav .pennine-white-logo {
+  display: inline;
+}
+#header .pennine-nav .pennine-white-logo{
+  display: none;
+}
+#header .pennine-nav .pennine-color-logo{
+  display: inline;
+}
+.dark-mode .liked-youread-container a{
+	color: #000;
+}
+

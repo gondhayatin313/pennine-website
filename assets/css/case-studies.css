@@ -74,10 +74,11 @@
     text-align: center;
     height: 100%;
 }
-.features-section .features-item:hover{
+
+/* .features-section .features-item:hover{
 	background-color: #ffffff;
 	box-shadow: .15rem .10rem .15rem .10rem rgba(10,12,16,.05);
-}
+} */
 
 .features-section .features-item .features-head, .features-icon {
     margin-bottom: 20px;
