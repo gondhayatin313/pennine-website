@@ -650,8 +650,22 @@
     .Challenge-section img {
         padding-top: 20px !important;
     }
+    
+    .hire-developers-main:after{
+        display: none;
+    }
+    .technology-content .technology-img {
+        position: static !important;
+        max-width: 100% !important;
+        padding-top: 30px;
+    }
+    .model-section .models-tabs{
+        gap: 0 !important;
+    }
+    .why-choose-section {
+        padding: 20px 0px !important;
+    }
 }
-
 
 @media only screen and (max-width: 1200px) {
 

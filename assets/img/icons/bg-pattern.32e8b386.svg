@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8" viewBox="0 0 8 8">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="8" height="8" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-18 13)">
+      <rect id="Rectangle_3406" data-name="Rectangle 3406" width="2" height="2" transform="translate(18 -13)" fill="#1d1d1b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_3405" data-name="Rectangle 3405" width="2" height="2" transform="translate(22 -13)" fill="#1d1d1b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_1389" data-name="Ellipse 1389" cx="1" cy="1" r="1" transform="translate(26 -13)" fill="#1d1d1b"/>
+    </g>
+    <g transform="translate(-18 17)">
+      <rect id="Rectangle_3406-2" data-name="Rectangle 3406" width="2" height="2" transform="translate(18 -13)" fill="#1d1d1b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_3405-2" data-name="Rectangle 3405" width="2" height="2" transform="translate(22 -13)" fill="#1d1d1b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_1389-2" data-name="Ellipse 1389" cx="1" cy="1" r="1" transform="translate(26 -13)" fill="#1d1d1b"/>
+    </g>
+  </g>
+</svg>
