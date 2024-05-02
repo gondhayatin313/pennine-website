@@ -113,6 +113,24 @@ $('#benefits-slider').owlCarousel({
 })
 
 
+$('#why-choose-slider-slider').owlCarousel({
+   loop: true,
+   margin: 10,
+   dots: false,
+   nav: false,
+   responsive: {
+      0: {
+         items: 1
+      },
+      600: {
+         items: 2.3
+      },
+      1000: {
+         items: 2.3  
+      }
+   }
+})
+
 
 
 var owl = $('#client-logo-content');
