@@ -438,7 +438,12 @@
     }
 
     #header .navbar-nav li a {
+        
         font-size: 24px;
+    }
+    
+    #header  .techlonogy-dropdown li a{
+        font-size: 14px !important;
     }
 
     .img-contain {
@@ -664,6 +669,9 @@
     }
     .why-choose-section {
         padding: 20px 0px !important;
+    }
+    .hire-developers-list {
+        padding-top: 30px;
     }
 }
 
